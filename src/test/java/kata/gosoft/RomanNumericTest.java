@@ -31,5 +31,10 @@ public class RomanNumericTest {
 		assertEquals("VI", RomanNumeric.convert(6));
 	}
 	
+	@Test
+	public void test_put_ten_should_return_X() {
+		assertEquals("X", RomanNumeric.convert(10));
+	}
+	
 
 }
